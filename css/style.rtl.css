@@ -1,0 +1,33 @@
+.main-title h3::after {
+	content: '';
+	position: absolute;
+	width: 40px;
+	height: 4px;
+	background-image: linear-gradient(
+		to right,
+		rgb(255, 0, 191),
+		var(--main-color)
+	);
+	border-radius: 10px;
+	top: 50%;
+	right: -50px;
+	transform: translateY(-50%);
+}
+
+.achieve .card .card-body h1::after {
+	content: "";
+	position: absolute;
+	width: 30px;
+	height: 3px;
+	background-color: var(--paragraph-color);
+	bottom: -25%;
+	right:  0%;
+}
+
+.active_img {
+	background-position: left;
+}
+
+.navbar-nav .nav-item::after {
+  right: 0;
+}
